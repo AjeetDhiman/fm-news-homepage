@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* orange e9ab53 */
+/* red #f15e50 */
+
+@layer base {
+  :root {
+    --color-red: 5deg, 85%, 63%;
+    --color-orange: 35deg 77% 62%;
+    --color-off-white: 36deg, 100%, 99%;
+    --color-grayish-blue: 233deg, 8%, 79%;
+    --color-dark-grayish-blue: 236deg, 13%, 42%;
+    --color-very-dark-blue: 240deg, 100%, 5%;
+  }
+}
+
+@layer utilities {
+  nav ul li a:hover {
+    @apply text-skin-secondary ease-in-out delay-75;
+  }
+}
